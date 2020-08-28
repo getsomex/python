@@ -20,10 +20,16 @@ class Archer(User):
     def attack(self):
         print(f'attacking with arrows: arrows left- {self.num_arrows}')
 
+    def run(self):
+        print('ran really fast')
 
-wizard1 = Wizard('Jello', 20)
-archer1 = Archer('Kello', 30)
-wizard1.attack()
-archer1.attack()
 
-print(isinstance(wizard1, User))
+class HybridBorg(Wizard, Archer):
+    def __init__(self, name, power, arrows):
+        Archer.__init__(self, name, arrows)
+        Wizard.__init__(self, name, power)
+
+
+hb1 = HybridBorg('hello', 30, 100)
+
+print(hb1.sign_in())

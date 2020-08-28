@@ -23,7 +23,14 @@ class Archer(User):
 
 wizard1 = Wizard('Jello', 20)
 archer1 = Archer('Kello', 30)
-wizard1.attack()
-archer1.attack()
 
-print(isinstance(wizard1, User))
+
+def player_attack(char):
+    char.attack()
+
+
+# player_attack(wizard1)
+# player_attack(archer1)
+
+for char in [wizard1, archer1]:
+    char.attack()
