@@ -5,12 +5,12 @@
 - [x] Functional Programming
 - [x] Decorator
 - [x] Error Handlings
-- [] Generators
-- [] Modules in Python
-- [] Debugging in Python
-- [] File I/O
-- [] Regular Expressions
-- [] Testing in Python
+- [x] Generators
+- [x] Modules in Python
+- [x] Debugging in Python
+- [x] File I/O
+- [x] Regular Expressions
+- [x] Testing in Python
 - [] Scripting with Python
 - [] Scraping data with Python
 - [] Web Development with Python
